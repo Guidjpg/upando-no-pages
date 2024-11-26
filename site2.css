@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	list-style: none;
+	text-decoration: none;
+}
+header {
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 1000;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	background: transparent;
+  }
+.logo {
+	font-size: 30px;
+	font-weight: 700;
+	color: white;
+	margin-left: 20px; 
+  }
+  
+  .navlist {
+	position: relative;
+	display: flex;
+	margin-left:740px; 
+	bottom: 30px;
+	left:50px;
+  }
+  
+  .navlist a {
+	color: white;
+	margin-left: 30px;
+	font-size: 15px;
+	font-weight: 600;
+  }
+
+.navlist a:hover{
+	color:rgb(51, 153, 153);
+
+}
+.hero{
+	height: 100%;
+	width: 100%;
+	min-height: 100vh;
+	background: linear-gradient(245.59deg, #5F5F5F 0%, #2E2E2E 28.53%, #000000 99.52%);
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	gap: 2rem;
+}
+section{
+	padding: 0 19%;
+}
+.hero-text h2{
+	font-family: 'Quando', serif;
+	font-size: 50px;
+	line-height: 1;
+	color: rgb(255, 255, 255);
+	margin: 0 0 45px;
+	top: -10px;
+	left: 550px;
+	transform: translate(-50px,-50px);
+
+}  
+.hero-text h4{
+	font-family:'Quando', serif;
+	font-size: 32px;
+	line-height: 1.5;
+	color: rgb(224, 224, 224);
+	position: relative;
+	left: 0px;
+	bottom:48px;
+	transform: translate(-50px,-50px);
+
+}
+.hero-text h5{
+	font-family:'Quando', serif;
+	font-size: 21px;
+	line-height: 1.5;
+	color: rgb(224, 224, 224);
+	position: relative;
+	top: 28px;
+	left: 10px;
+	transform: translate(-50px,-50px);
+
+}
+.hero-text p{
+	font-family: Sono;
+	font-size: 22px;
+	font-weight: 500;
+	color:rgb(255, 255, 255);
+	margin-right: 40px;
+}
+.hero-img img{
+	width: 700px;
+	height: auto;
+}
+.hero-text a{
+	display: inline-block;
+	color: rgb(0, 0, 0);
+	background: #fffefe;
+	border: 1px solid transparent;
+	padding: 12px 35px;
+	line-height: 1.4;
+	font-size: 14px;
+	font-weight: 500;
+	border-radius: 30px;
+	text-transform: uppercase;
+	transition: all .55s ease;
+}
+.hero-text a:hover{
+	background-color: black;
+	color: white;
+	border: 1px solid rgb(0, 0, 0);
+	transform: translateX(8px);
+}
+.hero-text a.ctaa{
+	color:#000000;
+	background: white;
+	
+	margin-left: 20px;
+}
+.hero-text a.ctaa i{
+	vertical-align: middle;
+	margin-right: 5px ;
+}
+.hero-text a.ctaa:hover{
+	color:rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+	
+}
+
+.paginas {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.paginas a {
+    text-decoration: none;
+    margin-bottom: 0px;
+	padding: 5px;
+}
+
+.paginas i {
+	position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    transition: transform 0.5s;
+	border-radius:10px;
+	bottom:120px;
+	margin-right: 20px;
+}
+
+.paginas .insta {
+    background-image: url('id2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paginas .likendin {
+    background-image: url('img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paginas .github {
+    background-image: url('fina.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paginas .insta:hover,
+.paginas .likendin:hover,
+.paginas .github:hover {
+    transform: translateY(-15%);
+}
+
+
+
+
+.scroll-down{
+	position: absolute;
+	bottom: 6%;
+	right: 9%;
+}
+.scroll-down i{
+	display: block;
+	padding: 12px;
+	font-size: 30px;
+	color: white;
+	background: #5F5F5F;
+	border-radius: 30px;
+	transition: all .50s ease;
+}
+.scroll-down i:hover{
+	transform: translateY(-5px);
+}
+.button {
+	display: inline-block;
+	padding: 5px 16px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;	
+	background-color: #b42828;
+	color: #ffffff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+	background-color: #17a1d8;
+  }
+  
+  .button:active {
+	background-color: #17a1d8;
+  }
+  
+@media (max-width: 1920px){
+	header{
+		padding: 15px 3%;
+		transition: .2s;
+	}
+	
+	.hero-img img{
+		width: 100%;
+		height: auto;}
+	.icons{
+		padding: 0 3%;
+		transition: .2s;
+	}
+	.scroll-down{
+		right: 3%;
+		transition: .2s;
+	}
+	.hero-text h1{
+		font-size: 75px;
+		margin: 0 0 30px;
+	}
+	.hero-text h5{
+		margin-bottom: 25px;
+	}
+}
+@media (max-width: 1440px){
+	section{
+		padding: 0 12%;
+		transition: .2s;
+	}
+	.hero-img img{
+		width: 100%;
+		height: auto;
+	}
+	.hero-text h1{
+		font-size: 75px;
+		margin: 0 0 30px;
+	}
+	.hero-text h5{
+		margin-bottom: 25px;
+	}
+}
+@media (max-width: 1366px){
+	.hero-img img{
+		width: 100%;
+		height: auto;
+	}
+	.hero-text h1{
+		font-size: 75px;
+		margin: 0 0 30px;
+	}
+	.hero-text h5{
+		margin-bottom: 25px;
+	}
+}
+@media (max-width: 1195px){
+	section{
+		padding: 0 3%;
+		transition: .2s;
+	}
+	.hero-text{
+		padding-top: 115px;
+	}
+	.hero-img{
+		text-align: center;
+	}
+	.hero-img img{
+		width: 560px;
+		height: auto;
+	}
+	.hero{
+		height: 100%;
+		gap: 1rem;
+		grid-template-columns: 1fr;
+	}
+	.icons{
+		display: none;
+	}
+	.scroll-down{
+		display: none;
+	}
+}
+@media (max-width: 990px){
+	#menu-icon{
+		display: block;
+	}
+	.navlist{
+		position: absolute;
+		top: 100%;
+		right: -100%;
+		width: 300px;
+		height: 40vh;
+		background: #4d9559;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		padding: 50px 20px;
+		transition: all .55s ease;
+	}
+	.navlist a{
+		margin-left: 0;
+		display: block;
+		margin: 7px 0;
+	}
+	.navlist.open{
+		right: 0;
+	}
+}
+@media (max-width: 680px){
+	.hero-img img{
+		width: 100%;
+		height: auto;
+	}
+}
+@media (min-width: 4000px){
+	.hero img{
+		width: 110%;
+		height: auto;
+	}
+	.navlist a{
+		position: relative;
+		bottom: -30px;
+		font-size: 2.2em;
+	}
+	.logo{
+		position: relative;
+		bottom: -30px;
+		font-size: 4em;
+	}
+	.hero-text h1{
+		font-size: 9vh;
+	}
+	.hero-text p{
+		font-size: 2vh;
+	}
+	.hero-text a{
+		position: relative;
+		bottom: -30px;
+		font-size: 2.5em;
+		border-radius: 50px;
+	}
+	.icons i{
+		font-size: 3.5em;
+	}
+	.scroll-down i{
+		font-size: 4em;
+		border-radius: 50px;
+	}
+}

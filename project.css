@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  margin-left: 20px;
+}
+
+.navlist {
+  position: relative;
+  display: flex;
+  margin-left: 740px;
+  bottom: 30px;
+  left: 50px;
+}
+
+.navlist a {
+  color: white;
+  margin-left: 30px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.navlist a:hover {
+  color: rgb(51, 153, 153);
+
+}
+
+.hero {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(245.59deg, #5F5F5F 0%, #2E2E2E 28.53%, #000000 99.52%);
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero-text h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 252, 252);
+  transform: translate(40%, -225px);
+  font-size: 52px;
+}
+
+.hero-img {
+  padding: 0 10px;
+  margin-left: -650px;
+
+
+}
+
+.image1,
+.image2 {
+  width: 305px;
+  height: 200px;
+  border-radius: 30px;
+  margin-right: 20px;
+  transition: transform 0.5s ease;
+}
+
+
+
+.image1,
+.image2 {
+  width: 305px;
+  height: 200px;
+  border-radius: 30px;
+  margin-right: 20px;
+  transition: transform 0.5s ease;
+}
+
+.image1:hover {
+  transform: translate(0, -40px);
+}
+
+.image2:hover {
+  transform: translate(0, -40px);
+}
+
+
+
+.scroll-down {
+  position: absolute;
+  bottom: 6%;
+  right: 9%;
+}
+
+.scroll-down i {
+  display: block;
+  padding: 12px;
+  font-size: 30px;
+  color: white;
+  background: #5F5F5F;
+  border-radius: 30px;
+  transition: all .50s ease;
+}
+
+.scroll-down i:hover {
+  transform: translateY(-5px);
+}
+
+.button {
+  display: inline-block;
+  padding: 5px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #b42828;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #17a1d8;
+}
+
+.button:active {
+  background-color: #17a1d8;
+}
+
+@media (max-width: 1920px) {
+  header {
+    padding: 15px 3%;
+    transition: 0.2s;
+  }
+
+
+  .icons {
+    padding: 0 3%;
+    transition: .2s;
+  }
+
+  .scroll-down {
+    right: 3%;
+    transition: .2s;
+  }
+
+}
+
+@media (min-width: 4000px) {
+  .hero img {
+    width: 110%;
+    height: auto;
+  }
+
+  .navlist a {
+    position: relative;
+    bottom: -30px;
+    font-size: 2.2em;
+  }
+
+  .logo {
+    position: relative;
+    bottom: -30px;
+    font-size: 4em;
+  }
+
+  .icons i {
+    font-size: 3.5em;
+  }
+
+  .scroll-down i {
+    font-size: 4em;
+    border-radius: 50px;
+
+  }
+}
+
+@media (max-width: 1440px) {
+  header {
+    padding: 15px 3%;
+    transition: 0.2s;
+  }
+
+}
+
+@media (max-width: 1366px) {
+  header {
+    padding: 20px;
+    transition: 0.2s;
+    margin-right: 0;
+  }
+
+  .header-logo {
+    display: inline;
+    margin-right: 0;
+  }
+
+  .header-logo {
+    display: inline;
+    margin-right: 0;
+  }
+
+
+  .logo {
+    margin-left: 200px;
+  }
+
+
+}
+
+@media (max-width: 1024px) {
+  section {
+    padding: 0 10%;
+    transition: 0.2s;
+  }
+
+  header {
+    color: #c50000;
+    margin-right: 200px;
+  }
+
+  .header-logo {
+    margin-right: 100px;
+  }
+
+  .hero-img {
+    margin-left: -70px;
+  }
+
+
+
+
+  .icons {
+    display: none;
+  }
+
+  .scroll-down {
+    display: none;
+  }
+}
+
+@media (max-width: 990px) {
+  header {
+    color: #c50000;
+    margin-right: 750px;
+
+  }
+
+  .header-logo {
+    margin-right: 100px;
+  }
+
+  .hero-img {
+    margin-left: -150px;
+  }
+
+}
+
+
+
+
+
+
+@media (max-width: 450px) {
+
+  header {
+    color: #c50000;
+    margin-right: 804px;
+
+  }
+
+  .header-logo {
+    margin-right: 120px;
+  }
+
+
+  .hero-img {
+    display: flex;
+    position: relative;
+    left: -30px;
+    top: 45px;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+  }
+
+  .icons {
+    display: fixed;
+    margin-bottom: 30px;
+  }
+
+  .scroll-down {
+    display: fixed;
+    margin-bottom: -30px;
+  }
+}
