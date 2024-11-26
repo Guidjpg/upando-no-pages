@@ -1,3 +1,3 @@
 # portifolio-simples
 
-[Clique aqui](https://github.com/Guidjpg/upando-no-pages)
+[Clique aqui](https://github.io/Guidjpg/upando-no-pages)
