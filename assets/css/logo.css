@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Sono:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  max-width: 200%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  background-color: #000000;
+}
+
+header {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  margin-left: 200px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.navlist {
+  position: relative;
+  display: flex;
+  margin-left: 740px;
+  bottom: 30px;
+  left: 50px;
+}
+
+.navlist a {
+  color: white;
+  margin-left: 30px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.navlist a:hover {
+  color: rgb(51, 153, 153);
+}
+
+.hero {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    245.59deg,
+    #5f5f5f 0%,
+    #2e2e2e 28.53%,
+    #000000 99.52%
+  );
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+
+section {
+  padding: 0 19%;
+}
+
+.hero-text h2 {
+  font-family: "Quando", serif;
+  font-size: 50px;
+  line-height: 1;
+  color: rgb(255, 255, 255);
+  margin: 0 0 45px;
+  top: -10px;
+  left: 550px;
+  transform: translate(-50px, -50px);
+}
+
+.hero-text h4 {
+  font-family: "Quando", serif;
+  font-size: 32px;
+  line-height: 1.5;
+  color: rgb(224, 224, 224);
+  position: relative;
+  left: 0px;
+  bottom: 48px;
+  transform: translate(-50px, -50px);
+}
+
+.hero-text h5 {
+  font-family: "Quando", serif;
+  font-size: 21px;
+  line-height: 1.5;
+  color: rgb(224, 224, 224);
+  position: relative;
+  top: 28px;
+  left: 10px;
+  transform: translate(-50px, -50px);
+}
+
+.hero-text p {
+  font-family: Sono;
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  margin-right: 40px;
+}
+
+.hero-img img {
+  width: 700px;
+  height: auto;
+}
+
+.hero-text a {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  background: #fffefe;
+  border: 1px solid transparent;
+  padding: 12px 35px;
+  line-height: 1.4;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 30px;
+  text-transform: uppercase;
+  transition: all 0.55s ease;
+}
+
+.hero-text a:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid rgb(0, 0, 0);
+  transform: translateX(8px);
+}
+
+.hero-text a.ctaa {
+  color: #000000;
+  background: white;
+
+  margin-left: 20px;
+}
+
+.hero-text a.ctaa i {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.hero-text a.ctaa:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+.paginas {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
+body {
+  font-family: Arial, sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+  cursor: grab;
+}
+
+.forgot-password {
+  text-decoration: none;
+  border-radius: 1px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.forgot-password a {
+  border-radius: 10px;
+  color: #007bff;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+button {
+  color: #fffefe;
+}
+
+#cor {
+  color: #ffffff;
+  text-decoration: none;
+
+
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-inline-start: 0.10px;
+}
