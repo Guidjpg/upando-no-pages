@@ -20,9 +20,9 @@ function verificaCampos(event) {
     if (name === "admin") {
       alert("Você é o admin");
       localStorage.setItem("usuario", JSON.stringify(lis));
-      window.location.href = "admi.html";
+      window.location.href = "logo.html";
     } else {
-      alert("Você é louco");
+      alert("Voce logou");
       localStorage.setItem("usuario", JSON.stringify(lis));
       window.location.href = "admi.html";
     }
