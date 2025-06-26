@@ -9,7 +9,7 @@
   font-family: "Poppins", sans-serif;
   list-style: none;
   text-decoration: none;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 header {
@@ -26,7 +26,7 @@ header {
 .logo {
   font-size: 30px;
   font-weight: 700;
-  color: white;
+  color: rgb(0, 0, 0);
   margin-left: 200px;
 }
 
@@ -44,7 +44,7 @@ header {
 }
 
 .navlist a {
-  color: white;
+  color: rgb(0, 0, 0);
   margin-left: 30px;
   font-size: 15px;
   font-weight: 600;
@@ -79,7 +79,7 @@ section {
   font-family: "Quando", serif;
   font-size: 50px;
   line-height: 1;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   margin: 0 0 45px;
   top: -10px;
   left: 550px;
@@ -124,7 +124,7 @@ section {
 .hero-text a {
   display: inline-block;
   color: rgb(0, 0, 0);
-  background: #fffefe;
+  background: #faf5f5;
   border: 1px solid transparent;
   padding: 12px 35px;
   line-height: 1.4;
@@ -177,7 +177,7 @@ body {
 }
 
 .login-container {
-  color: #ffffff;
+  color: #0e0c0c;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -206,15 +206,15 @@ input {
 }
 
 input[type="submit"] {
-  background-color: #4caf50;
+  background-color: #000000;
   color: white;
   border: none;
   cursor: pointer;
   font-size: 16px;
-}
+}   
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #0b4c72;
   cursor: grab;
 }
 
@@ -227,7 +227,7 @@ input[type="submit"]:hover {
 
 .forgot-password a {
   border-radius: 10px;
-  color: #007bff;
+  color: #e7e7e7;
 }
 
 .forgot-password a:hover {
@@ -238,7 +238,7 @@ button {
 }
 
 #cor {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 
 

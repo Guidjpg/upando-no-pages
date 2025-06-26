@@ -8,7 +8,7 @@
   font-family: 'Poppins', sans-serif;
   list-style: none;
   text-decoration: none;
-  background-color: #000000;
+  background-color: #fffdfd;
 }
 
 header {
@@ -25,7 +25,7 @@ header {
 .logo {
   font-size: 30px;
   font-weight: 700;
-  color: white;
+  color: rgb(0, 0, 0);
   margin-left: 200px;
 }
 
@@ -43,15 +43,13 @@ header {
 }
 
 .navlist a {
-  color: white;
+  color: rgb(0, 0, 0);
   margin-left: 30px;
   font-size: 15px;
   font-weight: 600;
 }
 
-.navlist a:hover {
-  color: rgb(51, 153, 153);
-}
+
 
 
 .hero {
@@ -74,7 +72,7 @@ section {
   font-family: 'Quando', serif;
   font-size: 50px;
   line-height: 1;
-  color: rgb(255, 255, 255);
+  color: rgb(2, 1, 1);
   margin: 0 0 45px;
   top: -10px;
   left: 550px;
@@ -86,7 +84,7 @@ section {
   font-family: 'Quando', serif;
   font-size: 32px;
   line-height: 1.5;
-  color: rgb(224, 224, 224);
+  color: rgb(0, 0, 0);
   position: relative;
   left: 0px;
   bottom: 48px;
@@ -98,7 +96,7 @@ section {
   font-family: 'Quando', serif;
   font-size: 21px;
   line-height: 1.5;
-  color: rgb(224, 224, 224);
+  color: rgb(0, 0, 0);
   position: relative;
   top: 28px;
   left: 10px;
@@ -121,7 +119,7 @@ section {
 
 .hero-text a {
   display: inline-block;
-  color: rgb(0, 0, 0);
+  color: rgb(32, 27, 27);
   background: #fffefe;
   border: 1px solid transparent;
   padding: 12px 35px;
@@ -134,15 +132,15 @@ section {
 }
 
 .hero-text a:hover {
-  background-color: black;
-  color: white;
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
   border: 1px solid rgb(0, 0, 0);
   transform: translateX(8px);
 }
 
 .hero-text a.ctaa {
   color: #000000;
-  background: white;
+  background: rgb(0, 0, 0);
 
   margin-left: 20px;
 }
@@ -153,7 +151,7 @@ section {
 }
 
 .hero-text a.ctaa:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   background-color: rgb(0, 0, 0);
 
 }
@@ -177,11 +175,12 @@ body {
 }
 
 .login-container {
-   color:#ffffff;
+   color:#000000;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 300px;
+   
 }
 
 h2 {
@@ -199,14 +198,14 @@ input {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 5px;
     font-size: 14px;
-    color:#ffffff;
+    color:#000000;
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #000000;
     color: white;
     border: none;
     cursor: pointer;
@@ -214,7 +213,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #07587e;
 }
 
 .forgot-password {
